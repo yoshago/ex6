@@ -19,6 +19,7 @@ class Board{
 	int size;
 
 public:
+	Board();
 	Board(int);
 	Board(const Board&);
 	square& operator [](vector<int> v);
