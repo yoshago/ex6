@@ -50,4 +50,9 @@ square& Board::operator[](vector<int> v) {
 
 }
 
+Board::Board(const Board& b)
+{
+	this->size=b.size;
+	this->board=b.board;
+}
 
