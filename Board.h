@@ -20,6 +20,7 @@ class Board{
 
 public:
 	Board(int);
+	Board(const Board&);
 	square& operator [](vector<int> v);
 	friend ostream& operator <<(ostream&, const Board&);
 	Board& operator =(char);
