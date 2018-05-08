@@ -1,6 +1,4 @@
-//
-// Created by יהונתן on 07/05/2018.
-//
+
 
 #ifndef UNTITLED1_ILLEGALCHAREXCEPTION_H
 #define UNTITLED1_ILLEGALCHAREXCEPTION_H
