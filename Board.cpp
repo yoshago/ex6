@@ -29,7 +29,7 @@ Board& Board::operator=(char c) {
 	return *this;
 }
 Board& Board::operator=(Board & b) {
-	this->~Board;
+	this->~Board();
 	this->size = b.size;
 	this->board = new square*[b.size];
 	for (int i=0;i<b.size;i++) {
