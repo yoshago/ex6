@@ -22,7 +22,7 @@ public:
 	Board();
 	Board(int);
 	Board(const Board&);
-	~Board()
+	~Board();
 	square& operator [](vector<int> v);
 	friend ostream& operator <<(ostream&, const Board&);
 	Board& operator =(char);
