@@ -6,7 +6,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <vector>
+
 
 #include "square.h"
 #include "IllegalCoordinateException.h"
